@@ -32,6 +32,7 @@ body {
 
 .menu a:hover {
     background-color: #e31837;
+    border-radius: 10px; /* Coins arrondis pour le survol */
     
     
 }
@@ -68,6 +69,11 @@ header {
     color: white;
     padding: 5px;
     text-align: center;
+    z-index: 1000; 
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .content {
