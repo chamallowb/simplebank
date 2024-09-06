@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="SB cercle.png" type="png">
+    <title>Simple Bank / Accueil</title>
+
+</head>
+<body>
+
+    <!-- Menu ouvrant -->
+    <div id="myMenu" class="menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        <h2 style="color: white; padding-left: 32px;">Menu</h2>
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="discord.html">Discord</a>
+    </div>
+
+    <!-- Icône du menu -->
+    <span id="menuIcon" class="menu-icon" onclick="openMenu()">&#9776;</span>
+
+    <!-- Logo en haut à droite -->
+    <a href="https://discord.gg/dpZWFK5yp7" target="_blank">
+        <img src="SB cercle.png" alt="Logo Banque" class="logo">
+    </a>
+
+
+    <!-- Contenu principal : Informations du site -->
+    <header>
+        <h1>Simple Bank<br>Discord</h1>
+    </header>
+
+    <div>
+        <iframe src="https://discord.com/widget?id=1272247599029817438&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" class="discord"></iframe>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Simple Bank. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
